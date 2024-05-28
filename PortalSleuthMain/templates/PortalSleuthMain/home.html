@@ -1,0 +1,33 @@
+{% extends 'PortalSleuthMain/base.html' %}
+{% load static %}
+{% block content %}
+<br>
+<style type="text/css">
+  .card {
+    background-color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+
+  text-align: center;
+}
+</style>
+<h1 align="left" style="font-size:50px"><b>The Portal Sleuth 2.0</b><span style="font-size:35px;"> <i>(ft. Emojify)</i></span><br><span style="font-size:18px;"><i>..Find your perfect partner!</i><span></h1><br><br><br>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img src="{% static "PortalSleuthMain/wall.jpeg" %}" alt="Not Found" style="width:100%">
+      </div>
+      </div>
+    <div class="col">
+      <h4><br>
+Of wide range of services available online in various sectors,
+ find your go-to partners to deliver you the products and services you request for.
+ <br>The Portal Sleuth gives you the summarized overview <br>
+ of the ratings and reviews given by different<br>
+  users on the interactions and services provided<br>
+   by vast number of web applications provided under each<br>
+    service category.
+  </h4>
+  </div>
+  </div>
+{% endblock %}
